@@ -1,0 +1,32 @@
+header {
+    background-color: #AACE9B;
+    position: relative;
+    height: 111px;
+}
+header h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 62px;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #000;
+}
+header nav {
+    position: absolute;
+    top: 22px;
+    right: 10px;
+}
+header nav ul li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    display: inline-block;
+    padding-right: 60px;
+    padding-left: 30px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+aside {
+    
+}
