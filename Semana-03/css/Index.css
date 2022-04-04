@@ -275,7 +275,6 @@ main {
     line-height: 24px;
     text-transform: uppercase;
     cursor: pointer;
-
 }
 .form {
     position: relative;
@@ -291,7 +290,60 @@ main {
     font-weight: 500;
     font-size: 42px;
     line-height: 74px;
-
+}
+.form form input {
+    display: inline-block;
+    align-items: flex-end;
+    margin-left: 40px;
+    padding: 5px 385px 5px 2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #373867;
+}
+.form form input:first-child {
+    margin-right: 5px;
+}
+.form select {
+    display: block;
+    width: 80%;
+    margin: 20px 0px 20px 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.form form textarea {
+    display: block;
+    width: 80%;
+    height: 160px;
+    margin-left: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    resize: none;
+}
+.form button {
+    margin: 40px;
+    padding: 5px 15px 5px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #AACE9B;
+    color: #000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.form button:last-child {
+    margin-bottom: 150px;
+    background-color: #fff;
+    border: 2px solid #AACE9B;
 }
 .about-us {
     position: relative;
