@@ -6,6 +6,9 @@ This week we are going to learn about HTML and try to reply the structure of the
 Week3:
 Get some style 😘!!! In this week we are going to learn about CSS and try to desing the landing page.
 
+Week4:
+We turn responsive now! No more pxs, in this week we are going to get some flexbox and a responsive desing!.
+
 ```
 In this awesome landing page you can find a lot of information about the company 
 
