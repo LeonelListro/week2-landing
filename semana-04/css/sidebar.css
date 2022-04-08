@@ -1,0 +1,13 @@
+aside {
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    aside {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    aside form .topnav {
+        
+    }
+}
