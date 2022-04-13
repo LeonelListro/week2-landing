@@ -3,6 +3,13 @@ body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.05em;
     color: #000;
+    background-color: #ededed;
+}
+.big-main {
+    background-color: #fff;
+}
+.big-main section , .big-main , article , footer {
+    background-color: #fff;
 }
 nav ul a {
     font-weight: 400;

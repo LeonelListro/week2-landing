@@ -4,7 +4,7 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 270px;
+    height: 290px;
     background-image: url(../img/footer.png);
     background-size: cover;
     background-position: center bottom;
@@ -18,7 +18,7 @@ footer div {
     width: 80%;
 }
 footer div a {
-    margin-top: 8rem;
+    margin-top: 9rem;
 }
 footer .last-p {
     display: flex;
