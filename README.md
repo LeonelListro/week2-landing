@@ -9,6 +9,9 @@ Get some style 😘!!! In this week we are going to learn about CSS and try to d
 Week4:
 We turn responsive now! No more pxs, in this week we are going to get some flexbox and a responsive desing!.
 
+Week5:
+We say hello to JavaScrip, in this week and for 2 more weeks we are going to start to reason about js codes.
+
 ```
 In this awesome landing page you can find a lot of information about the company 
 
