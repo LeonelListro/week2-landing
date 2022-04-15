@@ -7,9 +7,9 @@ console.log ('Exercise 1.a');
 
 var numerica1 , numerica2 , numerica3;
 
-var numerica1 = 10;
-var numerica2 = 30;
-var numerica3 = (numerica1 + numerica2);
+numerica1 = 10;
+numerica2 = 30;
+numerica3 = (numerica1 + numerica2);
 
 console.log (numerica3);
 
