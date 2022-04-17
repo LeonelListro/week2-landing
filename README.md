@@ -11,6 +11,7 @@ We turn responsive now! No more pxs, in this week we are going to get some flexb
 
 Week5:
 We say hello to JavaScrip, in this week and for 2 more weeks we are going to start to reason about js codes.
+https://leonellistro.github.io/week2-landing/semana-05/index.html
 
 ```
 In this awesome landing page you can find a lot of information about the company 
