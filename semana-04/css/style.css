@@ -5,12 +5,6 @@ body {
     color: #000;
     background-color: #ededed;
 }
-.big-main {
-    background-color: #fff;
-}
-.big-main section , .big-main , article , footer {
-    background-color: #fff;
-}
 nav ul a {
     font-weight: 400;
     font-size: 1rem;
@@ -22,30 +16,9 @@ aside {
     height: 100%;
     background-color: #ededed;
 }
-.topnav {
-    background-color: #c4c4c4;
-}
-.big-main {
-    flex: 4;
-}
 input {
     border-radius: 5px;
     border-style: none;
-}
-p.menu , .git {
-    margin-top: 1rem;
-    margin-left: 1rem;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.7rem;
-    font-weight: 500;
-    text-decoration: underline #aace9b;
-}
-li {
-    text-decoration: none;
-}
-a {
-    text-decoration: none;
-    color: #000;
 }
 h2 {
     text-decoration: underline #aace9b;
@@ -59,6 +32,33 @@ h3 {
     font-style: normal;
     font-weight: 500;
     font-size: 1.5rem;
+}
+li {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.big-main {
+    background-color: #fff;
+}
+.big-main section , .big-main , article , footer {
+    background-color: #fff;
+}
+.topnav {
+    background-color: #c4c4c4;
+}
+.big-main {
+    flex: 4;
+}
+p.menu , .git {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-decoration: underline #aace9b;
 }
 .functions p , .assets p {
     font-family: 'Roboto';
