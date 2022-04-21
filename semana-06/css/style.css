@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.05em;
+    color: #000;
+    background-color: #ededed;
+}
+nav ul a {
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #000;
+}
+aside {
+    flex: 1;
+    height: 100%;
+    background-color: #ededed;
+}
+input {
+    border-radius: 5px;
+    border-style: none;
+}
+h2 {
+    text-decoration: underline #aace9b;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4rem;
+}
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+li {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.big-main {
+    background-color: #fff;
+}
+.big-main section , .big-main , article , footer {
+    background-color: #fff;
+}
+.topnav {
+    background-color: #c4c4c4;
+}
+.big-main {
+    flex: 4;
+}
+p.menu , .git {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-decoration: underline #aace9b;
+}
+.functions p , .assets p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 24px;
+}
+.assets h2 {
+    margin-bottom: 4rem;
+}
+.assets img {
+    border-radius: 30px;
+}
+.assets h3 {
+    margin: 2rem 0;
+}
+.assets-1 button {
+    padding: 0.3rem 1.5rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #AACE9B;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #000;
+}

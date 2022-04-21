@@ -13,6 +13,9 @@ Week5:
 We say hello to JavaScrip, in this week and for 2 more weeks we are going to start to reason about js codes.
 https://leonellistro.github.io/week2-landing/semana-05/index.html
 
+Week6:
+We keep mooving on JS, now we have to give a sing up page to the user, and that's what we are going to do. 🥳
+
 ```
 In this awesome landing page you can find a lot of information about the company 
 
