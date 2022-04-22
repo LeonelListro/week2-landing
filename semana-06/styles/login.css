@@ -1,0 +1,82 @@
+main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+main .conteiner-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+main h2 {
+    margin: 2rem 0;
+}
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+.form-login {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.form-login .input-login {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #373867;
+}
+.form-login .input-login input {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #000;
+    font-weight: 400;
+}
+form .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form .buttons div {
+    justify-content: space-between;
+    margin: 0.5rem 0;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #373867;
+}
+form .buttons button {
+    padding: 0.6rem 5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+    color: #373867;
+    border: none;
+    background-color: #AACE9B;
+}
+form .buttons button:hover{
+    background-color: #809B75;
+}
+form .buttons .singup-button {
+    margin-bottom: 1.2rem;
+    padding: 0.6rem 3.5rem;
+    background-color: #fff;
+    font-size: 0.8rem;
+    color: #373867;
+    border-radius: 8px;
+    border: none;
+    outline: 0.1rem solid #000;
+}
+form .buttons a {
+    font-size: 0.6rem;
+    color: #373867;
+}
