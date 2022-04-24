@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="../styles/sidebar.css">
         <link rel="stylesheet" href="../styles/footer.css">
         <link rel="stylesheet" href="../styles/login.css">
+        <script src="../javascript/login.js"></script>
         <title>TRACKGENIX | WELCOME </title>
     </head>
     <body>
@@ -75,19 +76,21 @@
                     <form action="#">
                         <div class="form-login">
                             <div class="input-login">
-                                <label for="surname">Surname</label>
-                                <input type="text" placeholder="Type here" id="surname">
+                                <label for="email">Email</label>
+                                <input type="text" placeholder="Type here" id="email">
+                                <p class="hidden-text"></p>
                             </div>
                             <div class="input-login">
                                 <label for="contraseña">Password</label>
-                                <input type="text" placeholder="Type here" id="contraseña">
+                                <input type="password" placeholder="Type here" id="password">
+                                <p class="hidden-text"></p>
                             </div>
                         </div>
                         <div class="buttons">
                             <div>
                                 <input type="checkbox"><span>Remember Me</span>
                             </div>
-                            <button type="button">Log In</button>
+                            <button type="submit">Log In</button>
                             <a href="../views/employee-singup.html" class="singup-button">Sign up</a>
                             <a href="#">I forget my password</a>
                         </div>

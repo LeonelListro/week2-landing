@@ -2,6 +2,7 @@ main{
     display: flex;
     justify-content: center;
     width: 100%;
+    height: 550px;
 }
 main .conteiner-login {
     display: flex;
@@ -79,4 +80,10 @@ form .buttons .singup-button {
 form .buttons a {
     font-size: 0.6rem;
     color: #373867;
+}
+.hidden-text {
+    display: none;
+    margin-top: 0.1rem;
+    color: #F00;
+    font-style: italic;
 }
