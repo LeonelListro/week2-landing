@@ -20,7 +20,7 @@ header nav ul {
 }
 @media screen and (min-width: 1024px) {
     header nav ul {
-        display: flex;
+        display: none;
         flex-direction: row;
         justify-content: space-between;
     }

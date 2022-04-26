@@ -61,3 +61,20 @@ main .validation-singup {
     color: #F00;
     font-style: italic;
 }
+.hamburguer {
+    display: flex;
+}
+@media screen and (min-width: 768px) {
+    main .form-sign  {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    main .form-sign .input-sign {
+        width: 40%;
+    }
+    main .form-sign .input-sign button {
+        width: 100%;
+    }
+}
