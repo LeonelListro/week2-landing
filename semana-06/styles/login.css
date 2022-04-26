@@ -87,3 +87,6 @@ form .buttons a {
     color: #F00;
     font-style: italic;
 }
+.hamburguer {
+    display: flex;
+}

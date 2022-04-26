@@ -27,10 +27,15 @@ function nameValidation() {
     var letters = 
     ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
     var char= 0;
+    if (!nameSignup.value){
+        hiddenP[0].innerHTML ='Required';
+        hiddenP[0].style.display = 'block';
+        nameSignup.style.border = '2px solid #F00';
+    }
     for (i = 0; i < nameSignup.value.length; i++) {
         if (letters.includes(nameSignup.value[i])) {
             char ++;
-        } else {
+        }else {
             hiddenP[0].innerHTML ='Invalid Name';
             hiddenP[0].style.display = 'block';
             nameSignup.style.border = '2px solid #F00';
@@ -59,6 +64,11 @@ function surnameValidation() {
     var letters = 
     ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
     var char = 0;
+    if (!surnameSignup.value){
+        hiddenP[1].innerHTML ='Required';
+        hiddenP[1].style.display = 'block';
+        surnameSignup.style.border = '2px solid #F00';
+    }
     for (i = 0; i < surnameSignup.value.length; i++) {
         if (letters.includes(surnameSignup.value[i])) {
             char++;
@@ -91,6 +101,11 @@ function dniValidation() {
     var numbs = 
     ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
     var numb = 0;
+    if (!dniSignup.value){
+        hiddenP[2].innerHTML ='Required';
+        hiddenP[2].style.display = 'block';
+        dniSignup.style.border = '2px solid #F00';
+    }
     for (i = 0; i < dniSignup.value.length; i++) {
         if (numbs.includes(dniSignup.value[i])) {
             numb++;
@@ -123,6 +138,11 @@ function dateValidation(){
     var year = Number(dateSignup.value.split('-')[0]);
     var month = Number(dateSignup.value.split('-')[1]);
     var day = Number(dateSignup.value.split('-')[2]);
+    if (!dateSignup.value){
+        hiddenP[3].innerHTML ='Required';
+        hiddenP[3].style.display = 'block';
+        dateSignup.style.border = '2px solid #F00';
+    }
     if ((year > 2004) || (year < 1903)) {
         hiddenP[3].innerHTML ='Invalid date';
         hiddenP[3].style.display = 'block';
@@ -155,6 +175,11 @@ function phoneValidation() {
     var numbs = 
     ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
     var numb = 0;
+    if (!phoneSignup.value){
+        hiddenP[4].innerHTML ='Required';
+        hiddenP[4].style.display = 'block';
+        phoneSignup.style.border = '2px solid #F00';
+    }
     for (i = 0; i < phoneSignup.value.length; i++) {
         if (numbs.includes(phoneSignup.value[i])) {
             numb ++;
@@ -189,6 +214,11 @@ function adressValidation(){
     var num = 0;
     var char = 0;
     var spa = 0;
+    if (!adressSignup.value){
+        hiddenP[5].innerHTML ='Required';
+        hiddenP[5].style.display = 'block';
+        adressSignup.style.border = '2px solid #F00';
+    }
     for (i = 0; i < adressSignup.value.length; i++) {
         if (numbers.includes(adressSignup.value[i])) {
             num++;
@@ -222,6 +252,11 @@ function locationValidation(){
     ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
     var num = 0;
     var let = 0;
+    if (!locationSignup.value){
+        hiddenP[6].innerHTML ='Required';
+        hiddenP[6].style.display = 'block';
+        locationSignup.style.border = '2px solid #F00';
+    }
     for (i = 0; i < locationSignup.value.length; i++) {
         if (number.includes(locationSignup.value[i])) {
             num ++;
@@ -255,6 +290,11 @@ postalSignup.addEventListener('blur', postalValidation);
 function postalValidation() {
     var numbs = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
     var numb= 0;
+    if (!postalSignup.value){
+        hiddenP[7].innerHTML ='Required';
+        hiddenP[7].style.display = 'block';
+        postalSignup.style.border = '2px solid #F00';
+    }
     for (i = 0; i < postalSignup.value.length; i++) {
         if (numbs.includes(postalSignup.value[i])) {
             numb++;
@@ -339,6 +379,11 @@ repeatSignup.addEventListener('blur', repeatValidation);
 function repeatValidation(){
     var pass1 = passwordSignup.value;
     var repass = repeatSignup.value;
+    if (!repeatSignup.value){
+        hiddenP[10].innerHTML ='Required';
+        hiddenP[10].style.display = 'block';
+        repeatSignup.style.border = '2px solid #F00';
+    }
     if (pass1 == repass) {
         repeatSignup.style.border = '1px solid #000';
         return true;
@@ -389,3 +434,5 @@ function burguerMenu() {
 }
 burguer.addEventListener('click', burguerMenu);
 }
+
+

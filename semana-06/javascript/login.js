@@ -4,6 +4,8 @@ var loginEmail = document.getElementById('email');
 var loginPassword = document.getElementById('password');
 var hiddenText = document.getElementsByClassName('hidden-text');
 var form =document.getElementsByTagName('form');
+var burguer = document.getElementById('burguer');
+var nav = document.getElementsByClassName('nav-bar')    
 
 loginEmail.addEventListener('focus', emailInput);
 function emailInput(){
@@ -70,4 +72,9 @@ form[1].onsubmit = function (e) {
         alert('Wrong Password');
     }
 }
+
+function burguerMenu() {
+    nav[0].classList.toggle('hamburguer');
+}
+burguer.addEventListener('click', burguerMenu);
 };
