@@ -55,3 +55,9 @@ main form {
 main .validation-singup {
     display: none;
 }
+.hidden-p {
+    display: none;
+    margin-top: 0.1rem;
+    color: #F00;
+    font-style: italic;
+}

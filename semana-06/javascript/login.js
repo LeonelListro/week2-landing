@@ -1,8 +1,8 @@
 window.onload = function() {
 
 var loginEmail = document.getElementById('email');
-var hiddenText = document.getElementsByClassName('hidden-text');
 var loginPassword = document.getElementById('password');
+var hiddenText = document.getElementsByClassName('hidden-text');
 var form =document.getElementsByTagName('form');
 
 loginEmail.addEventListener('focus', emailInput);
@@ -33,20 +33,27 @@ function passwordInput(){
 loginPassword.addEventListener('blur', passwordValidation);
 function passwordValidation(){
     var numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+    var letters = 
+    ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
     var num = 0;
     var char = 0;
     for (i = 0; i < loginPassword.value.length; i++) {
         if (numbers.includes(loginPassword.value[i])) {
             num++;
-        } else {
+        }else if (letters.includes(loginPassword.value[i])){
             char++;
+        }else {
+            hiddenText[1].innerHTML ='Invalid Password';
+            hiddenText[1].style.display = 'block';
+            loginPassword.style.border = '2px solid #F00';
+            return false;
         }
     }
     if (loginPassword.value.length >= 8 && num >= 1 && char >= 1) {
         loginPassword.style.border = '1px solid #000';
         return true;
     } else {
-        hiddenText[1].innerHTML ='Invalid Email';
+        hiddenText[1].innerHTML ='Invalid Password';
         hiddenText[1].style.display = 'block';
         loginPassword.style.border = '2px solid #F00';
         return false;
