@@ -17,7 +17,10 @@ Week6:
 We keep mooving on JS, now we have to give a sing up page to the user, and that's what we are going to do. 🥳
 https://leonellistro.github.io/week2-landing/semana-06/views/index.html
 
-```
+Week7:
+Finally! In tis week we are goint to request some information to the servers 🥳
+
+'''''
 In this awesome landing page you can find a lot of information about the company 
 
 For example... 🧐
