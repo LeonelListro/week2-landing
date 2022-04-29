@@ -25,7 +25,8 @@ function nameInput(){
 nameSignup.addEventListener('blur', nameValidation);
 function nameValidation() {
     var letters = 
-    ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+    ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'
+    ,'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
     var char= 0;
     if (!nameSignup.value){
         hiddenP[0].innerHTML ='Required';
@@ -62,7 +63,8 @@ function surnameInput(){
 surnameSignup.addEventListener('blur', surnameValidation);
 function surnameValidation() {
     var letters = 
-    ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+    ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'
+    ,'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
     var char = 0;
     if (!surnameSignup.value){
         hiddenP[1].innerHTML ='Required';
@@ -249,7 +251,8 @@ locationSignup.addEventListener('blur', locationValidation);
 function locationValidation(){
     var number = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
     var letter = 
-    ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+    ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'
+    ,'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
     var num = 0;
     var let = 0;
     if (!locationSignup.value){
@@ -344,7 +347,8 @@ passwordSignup.addEventListener('blur', passwordValidation);
 function passwordValidation(){
     var numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
     var letters = 
-    ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+    ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'
+    ,'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
     var num = 0;
     var char = 0;
     for (i = 0; i < passwordSignup.value.length; i++) {
@@ -433,6 +437,23 @@ function burguerMenu() {
     nav[0].classList.toggle('hamburguer');
 }
 burguer.addEventListener('click', burguerMenu);
+
+fetch('https://basp-m2022-api-rest-server.herokuapp.com/signup')
+    .then(function (response) {
+        console.log('response', response);
+        return response.json();
+    })
+    .then(function (jsonResponse) {
+        console.log('json', jsonResponse);
+        if (jsonResponse) {
+            console.log('Good', jsonResponse);
+        } else {
+            throw jsonResponse;
+        }
+    })
+    .catch(function (error) {
+        console.warn('Error', error);
+    });
 }
 
 
