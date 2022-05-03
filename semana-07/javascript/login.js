@@ -94,11 +94,15 @@ function myFunction(emailVal , passVal , url) {
     });
     }
 
-form[1].onsubmit = function (e) {
+form[1].onsubmit = function(e) {
     e.preventDefault();
     var url = 'https://basp-m2022-api-rest-server.herokuapp.com/login'
-    if (emailValidation() == loginEmail.value && passwordValidation() == true) {
+    if(emailValidation() == loginEmail.value && passwordValidation() == true) {
         myFunction(loginEmail.value , loginPassword.value , url);
+    }else if(emailValidation() !== loginEmail.value) {
+        alert('invalid email')
+    }else if(passwordValidation() !== true){
+        alert('invalid password')
     }
 }
 }

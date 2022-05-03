@@ -18,7 +18,10 @@ We keep mooving on JS, now we have to give a sing up page to the user, and that'
 https://leonellistro.github.io/week2-landing/semana-06/views/index.html
 
 Week7:
-Finally! In tis week we are goint to request some information to the servers 🥳
+Finally! In this week we are going to request some information to the servers 🥳 and we are going to work with
+callbacks and promises. 
+We will use the localStorage and we will put some dates on it.
+https://leonellistro.github.io/week2-landing/semana-07/views/index.html
 
 '''''
 In this awesome landing page you can find a lot of information about the company 
